@@ -1,0 +1,28 @@
+input {
+  margin-top: 1%;
+  padding: .8%;
+}
+
+input:focus {
+  border: 2px solid brown;
+}
+
+textarea {
+  resize: none;
+  width: 20%;
+  height: 7em;
+}
+
+textarea:focus {
+  border: 2px solid brown;
+}
+
+#submit {
+  border: none;
+  font-size: 2em;
+  color: black;
+}
+
+#submit:hover {
+  background-color: white;
+}

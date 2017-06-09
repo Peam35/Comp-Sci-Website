@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About | Kareem's Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stylesheet.css" type="text/css" rel="stylesheet" />
+    <link href="favicon.ico" type="image/x-icon" rel="icon" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+      $(function() {
+        $('#mailing-list-submit').click(function() {
+          var email = $('#mailing-list-email');
+          var input = email.val();
+          var indexOfAt = input.indexOf('@');
+          var indexOfPeriod = input.indexOf('.');
+          if (input != '' && indexOfAt >= 1 && input[indexOfAt + 1] != undefined && indexOfPeriod >= 3 && input[indexOfPeriod + 1] != undefined) {
+            $('#mailing-list-submit-div').text('Thank you! An email has been sent to ' + input + ' to confirm.');
+            email.css('color', 'black');
+          } else {
+            email.css('color', 'red');
+            $('#mailing-list-submit-div').text('');
+          }
+        });
+      })
+    </script>
+  </head>
+  
+  <body>
+    <div id="alert">ALERT! New changes to come to this blog! See more <a href="post-unavailable.html">here</a></div>
+    <div id="image-container">
+      <header id="logo">
+        <h1><a href="index.html">Kareem's<br>Blog</a></h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    
+    <h1 style="font-size: 5em;">Sorry, this seems unavaiable right now.</h1>
+    <footer>Kareem's Blog &copy;2017</footer>
+  </body>
+</html>

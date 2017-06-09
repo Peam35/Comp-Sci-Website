@@ -1,0 +1,44 @@
+html, body {
+  height: 100%;
+}
+
+h1 {
+  font-size: 6em;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+aside {
+  float: none;
+  position: static;
+  width: 100%;
+  margin-top: 2%;
+  border: none;
+  box-shadow: none;
+}
+
+.parralax {
+  height: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  font-size: 8em;
+  text-align: center;
+  font-family: arial;
+}
+
+#innovator {
+  background-image: url(https://ayehu.com/wp-content/uploads/2015/08/types-of-innovation.jpg);
+}
+
+#courageous {
+  background-image: url(https://sites.isucomm.iastate.edu/cbredman/wp-content/uploads/sites/33/2014/01/injured-fire.jpg);
+}
+
+#friend {
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/3a/ec/f1/3aecf1348580506df98b8dab8523a84a.jpg);
+}

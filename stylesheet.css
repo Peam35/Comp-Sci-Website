@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Vibur');
+body {
+  background-color: #b7c0ce;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+#alert {
+  background-color: black;
+  color: white;
+}
+
+#alert a {
+  color: white;
+}
+
+#image-container {
+  background-image: url(https://arlingtonvoice.com/sites/default/files/reports/2017/Feb/06/water-17.jpg);
+}
+
+#logo h1 {
+  text-align: center;
+  font-family: Vibur;
+  font-size: 4em;
+  margin-top: .2%;
+}
+
+#logo h1 a:hover {
+  opacity: 0.7;
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin-left: 35%;
+  width: 50%;
+  overflow: auto;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 3em;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.7em;
+  color: #280c51;
+}
+
+nav ul li a:hover {
+  background-color: magenta;
+}
+
+aside {
+  float: left;
+  position: fixed;
+  width: 15%;
+  margin-top: 2%;
+  border: 2px solid #583589;
+  box-shadow: .5em .5em .25em black;
+}
+
+aside img {
+  width: 30%;
+  height: 2em;
+}
+
+#mailing-list-email {
+  width: 94%;
+  padding: 2%;
+}
+
+#mailing-list-email:focus {
+  border: 2px solid brown;
+}
+
+#mailing-list-submit {
+  margin-top: 2%;
+  margin-left: 25%;
+  padding: 2%;
+  border: 2px solid black;
+  width: 50%;
+}
+
+#mailing-list-submit:hover {
+  background-color: #69f42e;
+}
+
+main {
+  float: right;
+  width: 80%;
+  background-color: #f9bf59;
+  padding: 1%;
+}
+
+article {
+  background-color: #d1cdc6;
+}
+
+article span {
+  font-size: 60%;
+}
+
+article h1 {
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+footer {
+  font-size: 70%;
+  text-align: center;
+  clear: both;
+}
